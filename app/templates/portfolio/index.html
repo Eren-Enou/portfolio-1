@@ -1,0 +1,25 @@
+{% extends "portfolio-base.html" %}
+
+{% block title %}
+    Portfolio - Eren's Portfolio
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h2>Portfolio</h2>
+        <!-- Your portfolio content goes here -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="path/to/image.jpg" class="card-img-top" alt="Project Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title</h5>
+                        <p class="card-text">Project description goes here.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more project cards here -->
+        </div>
+    </div>
+{% endblock %}

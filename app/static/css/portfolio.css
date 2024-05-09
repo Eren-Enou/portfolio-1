@@ -1,0 +1,57 @@
+/* Navbar Styles */
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 20px;
+}
+
+/* Page Content Styles */
+.container {
+    margin-top: 40px;
+}
+
+/* Portfolio Card Styles */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-link {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
